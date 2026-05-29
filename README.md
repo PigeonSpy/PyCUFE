@@ -1,5 +1,5 @@
 # PyCUFE
-A Pythonic-Sage implementation of the Ciphertext Updatable Functional Encryption (CUFE) scheme based on works of Valerio Cini et al
+A Pythonic-Sage implementation of the Ciphertext Updatable Functional Encryption (CUFE) scheme based on works of Valerio Cini et al. Works will be done to fix up the code, enforce parameter bounds and ensure the code is cleaner and easier to read.
 
 # Installation
 ## X. Prerequisites
