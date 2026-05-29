@@ -20,3 +20,11 @@ If on VSCode follow the steps in this guide to start a WSL environment (https://
 # Remarks
 The code is somewhat incomplete, while the functions work as intended, error values can accumulate for certain parameter choices and drown out the message signal returning an erroneous output. This is partly due to parameters not having their bounds enforced correctly allowing for incorrect parameter combinations and an issue on my part. My intention is to fix these. This code is done for my dissertation in general, demonstrating a working "toy" construction of the scheme without worrying about a secure fully-trusted authority.
 
+# URL references
+https://eprint.iacr.org/2022/1284.pdf - (Inner Product) Functional Encryption with Updatable Ciphertexts (For the main CUFE construction)
+https://link.springer.com/chapter/10.1007/978-3-642-13190-5_28#preview - Efficient Lattice (H)IBE in the Standard Model (For the sampleLeft algorithm)
+https://advancedcrypto.github.io/Lecture4a.pdf - Fully Homomorphic Encryption (Lecture notes) (For the gadget matrix)
+https://people.csail.mit.edu/vinodv/6876-Fall2015/L16.pdf - Sampling Lattice Trapdoors (Lecture notes) (For trapdoor sampling)
+
+# Acknowledgments
+Thank you to my supervisor for the supporting me with the project and project direction. Additional thanks to the papers outlined for providing the basis for construction.
