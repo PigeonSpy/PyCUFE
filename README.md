@@ -13,6 +13,8 @@ https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-vscode.
 The code requires Sage to run. Sage is a library providing the necessary operations for lattice and matrix manipulation which is required for implementation of the Learning With Errors approach used to construct the scheme. You can refer to the following for SageMath installation (Please choose the "Windows" option if using WSL, I have not tested any other installations!): https://doc.sagemath.org/html/en/installation/index.html.
 
 ## 3. Setting up the project
+Make sure to install the Python extensions (if using VSCode) and the Jupyter extensions (to run the notebook code!)
+
 If on VSCode follow the steps in this guide to start a WSL environment (https://code.visualstudio.com/docs/remote/wsl). Once in this environment, clone the project. Make sure you install the Python extensions for VSCode and install Python 3.12.12 on your WSL system then start a virtual environment (Ctrl+Shift+P to open Command Palette and search Select Environment) clicking this you should see a list of environments, you want to select the one titled: "Python 3.12.12 (Sage)", if you don't see it then refer to installing Sage again. You should now be able to run the code.
 
 # Remarks
